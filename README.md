@@ -1,7 +1,7 @@
 # CoronaryArteryStenosisLevelClassification
 We utilize DNNs for identifying the level of stenosis in coronary arteries from CT scans and MPR images
 
-It is the implementation of the (TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
+It is the implementation of the CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images. 
 
 Maria Dobko, Bohdan Petryshak, Oles Dobosevych
 
@@ -145,18 +145,18 @@ loss:
 ```
 
 
-## Citation TODOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## Citation
 
 If you use this code for your research, please cite our paper.
 
 ```
 ​```
 @InProceedings{Kupyn_2019_ICCV,
-author = {Orest Kupyn and Tetiana Martyniuk and Junru Wu and Zhangyang Wang},
-title = {DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better},
-booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-month = {Oct},
-year = {2019}
+author = {Maria Dobko and Bohdan Petryshak and Oles Dobosevych},
+title = {CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images},
+booktitle = {The Computer Vision Winter Workshop (CVWW)},
+month = {Feb},
+year = {2020}
 }
 ​```
 ```
