@@ -151,7 +151,7 @@ If you use this code for your research, please cite our paper.
 
 ```
 ​```
-@InProceedings{Kupyn_2019_ICCV,
+@InProceedings{DobkoPetryshakDobosevych_2020,
 author = {Maria Dobko and Bohdan Petryshak and Oles Dobosevych},
 title = {CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images},
 booktitle = {The Computer Vision Winter Workshop (CVWW)},
