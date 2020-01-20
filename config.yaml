@@ -1,0 +1,46 @@
+experiments_path: experiments_lenet/
+device: cuda
+random_state: 42
+
+dataloader:
+  batch_size: 16
+  sampler: ImbalancedDatasetSampler
+  accumulation_steps: 1
+
+data:
+  root_dir: /home/petryshak/CoronaryArteryPlaqueIdentification/data/all_branches_with_pda_plv_with_new_test
+#/home/petryshak/CoronaryArteryPlaqueIdentification/data/all_branches_with_pda_plv
+  filters:
+#    arteries: [ 'LAD', 'D-1', 'D-2', 'D-3','PLV_RCA', 'LCX',  'OM-2', 'RCA', 'PLV_LCX', 'OM-3', 'PDA_LCX','OM-1', 'OM' ]
+    arteries: ['LAD']
+    viewpoint_index_step: 1
+  groups:
+    0: [ 'NORMAL','-']
+    1: ['250%', '<25%', '<35%', '25-50%', '25%', '<50%']
+    #2: [ '70%', '50-70%', '70-90%', '90-100%', '>50%', '>70%', '90%', '>90%','75%', '>75%']
+    2: ['50%', '70%','*50%', '50-70%', '70-90%', '90-100%', '>50%', '>70%', '90%', '>90%','75%', '>75%']
+  augmentation:
+    name: MediumAugFixed
+    parameters:
+      p: 0.8
+  dataset: MPR_Dataset
+
+
+model:
+  name: OlesNetwork #MultilayerPerceptron Perceptron LeNet5 ShuffleNetv2
+#  parameters:
+#    pretrained: True
+
+optimizer:  # as in paper
+  name:  Adam
+  parameters:
+    lr: 0.0001
+#    weight_decay: 0.00001
+#    momentum: 0.9
+
+loss:
+  name: CrossEntropyLabelSmooth #CrossEntropyLabelSmooth #CrossEntropyLoss OHEMLoss
+  parameters:
+     num_classes: 3
+#    k: 40
+
