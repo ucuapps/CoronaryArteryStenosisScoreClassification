@@ -9,15 +9,16 @@ In CVWW
 
 ## Overview
 To decrease patient waiting time for di-agnosis of the Coronary Artery Disease,  automaticmethods are applied to identify its severity in Coro-nary Computed Tomography Angiography scans orextracted  Multiplanar  Reconstruction  (MPR)  im-ages,  giving  doctors  a  second-opinion  on  the  pri-ority of each case.   The main disadvantage of pre-vious  studies  is  the  lack  of  large  set  of  data  thatcould guarantee their reliability.  Another limitationis the usage of handcrafted features requiring man-ual preprocessing, such as centerline extraction.  Weovercome both limitations by applying different au-tomated  approach  based  on  ShuffleNet  V2  networkarchitecture and testing it on the proposed collecteddataset  of  MPR  images,  which  is  bigger  than  anyother  used  in  this  field  before.   We  also  omit  cen-terline extraction step, and train and test our modelusing whole curved MPR images of 708 and 105 pa-tients, respectively.  The model predicts one of threeclasses:  ‘no stenosis’ for normal,  ‘non-significant’— 1-50% of stenosis detected, ‘significant’ — morethan 50% of stenosis.   We demonstrate model’s in-terpretability through visualization of most importantfeatures selected by the network.  For stenosis scoreclassification,  the method showed improved perfor-mance comparing to previous works, achieving 80%accuracy on the patient level. We will make our codepublicly available.
-## General Pipeline
-
-
-<img src="imgs_for_readme/prediction.png" alt="General Pipeline" align="middle">
 
 <p align=center>
     <img src="imgs_for_readme/results_table.PNG" alt="Results Table" width=500 height=250>
     <img src="imgs_for_readme/conf_matrixes.PNG" alt="Confusion Matrixes" width=500 height=500>
 </p>
+
+## General Pipeline
+
+
+<img src="imgs_for_readme/prediction.png" alt="General Pipeline" align="middle">
 
 ## Usage
 
