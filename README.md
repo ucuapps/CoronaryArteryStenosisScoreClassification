@@ -12,8 +12,8 @@ To decrease patient waiting time for di-agnosis of the Coronary Artery Disease, 
 ## General Pipeline
 
 ![Alt text](imgs_for_readme/prediction.png "General Pipeline")
-![Alt text](imgs_for_readme/results_table.png "Results Table")
-![Alt text](imgs_for_readme/conf_matrixes.png "Confusion Matrixes")
+![Alt text](imgs_for_readme/results_table.PNG "Results Table")
+![Alt text](imgs_for_readme/conf_matrixes.PNG "Confusion Matrixes")
 
 ## Usage
 
