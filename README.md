@@ -1,5 +1,4 @@
 # CoronaryArteryStenosisLevelClassification
-We utilize DNNs for identifying the level of stenosis in coronary arteries from CT scans and MPR images
 
 It is the implementation of the CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images. 
 
