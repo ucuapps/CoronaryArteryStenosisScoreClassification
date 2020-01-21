@@ -22,9 +22,24 @@ To decrease patient waiting time for di-agnosis of the Coronary Artery Disease, 
 
 ## Usage
 
-### Training
+### Dependencies
 
+All necessary modules are in the requirements.txt
+```
+pip install -r requirements.txt
+```
+
+Also, this code should be compatible with Python versions 2.7-3.5.
+
+
+### Training
+1. Set parameters for the experiment config.yaml (for detailed explanation of the config file see config section below)
+2. Run the following command:
+```
+python train.py
+```
 ### Testing
+For the evaluating of the trained models you should use the jupyter notebooks, which are located in the notebooks folder.
 
 ## Dataset structure
 
@@ -156,7 +171,8 @@ loss:
      num_classes: 3
 #    k: 40
 ```
-
+## Data & model weights access
+For the data and the trained models' weights access request use the following email <petryshak@ucu.edu.ua> 
 
 ## Citation
 
