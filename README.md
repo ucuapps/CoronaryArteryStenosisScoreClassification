@@ -13,8 +13,11 @@ To decrease patient waiting time for di-agnosis of the Coronary Artery Disease, 
 
 
 <img src="imgs_for_readme/prediction.png" alt="General Pipeline" align="middle">
-<img src="imgs_for_readme/results_table.PNG" alt="Results Table" width=600 height=500 align="middle">
-<img src="imgs_for_readme/conf_matrixes.PNG" alt="Confusion Matrixes" width=600 height=500 align="middle">
+
+<p align=center>
+    <img src="imgs_for_readme/results_table.PNG" alt="Results Table" width=500 height=250>
+    <img src="imgs_for_readme/conf_matrixes.PNG" alt="Confusion Matrixes" width=500 height=500>
+</p>
 
 ## Usage
 
