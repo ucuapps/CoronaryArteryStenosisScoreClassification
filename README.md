@@ -189,4 +189,3 @@ year = {2020}
 }
 ​```
 ```
-<p style='color:red'>This is some red text.</p>
