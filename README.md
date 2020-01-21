@@ -22,6 +22,10 @@ To decrease patient waiting time for di-agnosis of the Coronary Artery Disease, 
 
 ## Usage
 
+### Training
+
+### Testing
+
 ## Dataset structure
 
 The dataset has the following structure:
