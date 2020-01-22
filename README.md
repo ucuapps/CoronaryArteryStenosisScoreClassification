@@ -1,4 +1,4 @@
-# CoronaryArteryStenosisLevelClassification
+# Coronary Artery Stenosis Level Classification
 
 It is the implementation of the CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images. 
 
