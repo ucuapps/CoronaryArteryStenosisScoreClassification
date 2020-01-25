@@ -1,6 +1,6 @@
 # Coronary Artery Stenosis Level Classification
 
-It is the implementation of the [CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score in MPR Images](https://arxiv.org/abs/2001.08593) by Maria Dobko, Bohdan Petryshak, and Oles Dobosevych
+This is an implementation of the [CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score in MPR Images](https://arxiv.org/abs/2001.08593) by Maria Dobko, Bohdan Petryshak, and Oles Dobosevych
 
 In CVWW 2020 proceedings
 
