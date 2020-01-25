@@ -1,10 +1,9 @@
 # Coronary Artery Stenosis Level Classification
 
-It is the implementation of the CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images. 
-
+It is the implementation of the [CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images](https://arxiv.org/abs/2001.08593).
 Maria Dobko, Bohdan Petryshak, Oles Dobosevych
 
-In CVWW
+In CVWW 2020 proceedings
 
 ## Overview
 To decrease patient waiting time for di-agnosis of the Coronary Artery Disease,  automaticmethods are applied to identify its severity in Coro-nary Computed Tomography Angiography scans orextracted  Multiplanar  Reconstruction  (MPR)  im-ages,  giving  doctors  a  second-opinion  on  the  pri-ority of each case.   The main disadvantage of pre-vious  studies  is  the  lack  of  large  set  of  data  thatcould guarantee their reliability.  Another limitationis the usage of handcrafted features requiring man-ual preprocessing, such as centerline extraction.  Weovercome both limitations by applying different au-tomated  approach  based  on  ShuffleNet  V2  networkarchitecture and testing it on the proposed collecteddataset  of  MPR  images,  which  is  bigger  than  anyother  used  in  this  field  before.   We  also  omit  cen-terline extraction step, and train and test our modelusing whole curved MPR images of 708 and 105 pa-tients, respectively.  The model predicts one of threeclasses:  ‘no stenosis’ for normal,  ‘non-significant’— 1-50% of stenosis detected, ‘significant’ — morethan 50% of stenosis.   We demonstrate model’s in-terpretability through visualization of most importantfeatures selected by the network.  For stenosis scoreclassification,  the method showed improved perfor-mance comparing to previous works, achieving 80%accuracy on the patient level. We will make our codepublicly available.
