@@ -180,7 +180,7 @@ If you use this code for your research, please cite our paper.
 ​```
 @InProceedings{DobkoPetryshakDobosevych_2020,
 author = {Maria Dobko and Bohdan Petryshak and Oles Dobosevych},
-title = {CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score inMPR Images},
+title = {CNN-CASS: CNN for Classification of Coronary Artery Stenosis Score in MPR Images},
 booktitle = {The Computer Vision Winter Workshop (CVWW)},
 month = {Feb},
 year = {2020}
